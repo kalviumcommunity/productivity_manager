@@ -3,9 +3,11 @@
   padding: 0px;
   font-family: sans-serif;
   color: black;
+  box-sizing:  border-box;
 }
 body{
-  background-color: white;
+  background-color: #F3F2EF;
+  overflow-x: hidden; 
 }
 
 @keyframes logo-spin {

@@ -10,8 +10,7 @@ import { Outlet, Link } from "react-router-dom";
 
 function Navbar(props) {
     const style = { color: "yellow", fontSize: "1.5em" }
-    return (
-        <div id='nav_parent'>
+    return ( <>        <div id='nav_parent'>
              <div className='menu_logo'>
                <img className='logo' src={Menu} alt="" /> 
                <img className='logo' src={Productivity} alt="" />
@@ -31,6 +30,12 @@ function Navbar(props) {
             </div>
             
         </div>
+        <div className='navbar_dummy_box'>
+
+        </div>
+
+        </>
+
     );
 }
 
