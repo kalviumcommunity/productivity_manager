@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from "react";
 import "./Style/home.css";
-import Home_Task from "../Components/Home_Task";
+import Store from "../Redux/Store";
 import Shift_box from "../Components/Shift_box";
-
+import {useSelector} from 'react-redux'
+// import {getState} from 'react-redux'
 
 function Home(props) {
   
   let Shift_list = ["First Shift", "Second Shift", "Night Shift"];
+  let dta = useSelector( (state) => { return state});
   
+  console.log(dta)
 
   return (
     <div id="home_parent_box">

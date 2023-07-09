@@ -1,15 +1,30 @@
 import React from "react";
 import "./Style/home_task.css";
 import Man from "./../assets/images/man.png";
+import {useSelector} from 'react-redux'
 
 function Home_Task({ user }) {
+
+  let reduxData = useSelector( (state) => { return state.Pickers })
+
+  
+
+  let handleChangeTask = ( ) => {
+
+
+
+  }
+
+
+
+
   return (
     <div className="home_task_parent">
       <div className="home_task_user">
         <img src={Man} alt="" />
         <div>
           <h4>{user.name}</h4>
-          <select className="home_task_task_list" name="" id="">
+          <select className="home_task_task_list" name="" id=""  onChange={(e) => { handleChangeTask(e)}} >
           <option value="No Task">Task</option>
           <option value="Cluster">Cluster</option>
           <option value="Packing">Packing</option>
