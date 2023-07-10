@@ -27,7 +27,5 @@ This project is a productivity management application designed to help individua
 - HTML/CSS: Frontend design and styling.
 - Mongo DB : Database management system for storing user data.
 
-## Figma Design
 
-https://www.figma.com/file/JKQMOlZPuDSWndX0c5yNOk/Protrack?type=design&node-id=0-1&mode=design&t=CP7cL6WedppYrlNo-0
 
